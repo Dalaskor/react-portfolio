@@ -1,4 +1,6 @@
 .hero {
+  margin-top: 6.2rem;
+
   &__container {
     max-width: 100rem;
     margin: 0 auto;
@@ -6,10 +8,11 @@
     align-items: center;
     justify-content: space-between;
     gap: 1.8rem;
-    padding: 6.2rem;
   }
 
-  &__left {}
+  &__left {
+    max-width: 53.7rem;
+  }
 
   &__right {}
 

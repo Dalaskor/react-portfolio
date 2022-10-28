@@ -1,0 +1,60 @@
+.quote {
+  &__container {
+    max-width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9.8rem;
+  }
+
+  &__body {
+    border: 0.1rem solid #ABB2BF;
+    padding: 3.3rem;
+    width: 100%;
+    position: relative;
+
+    p {
+      font-weight: 500;
+      font-size: 2.4rem;
+      line-height: 3.1rem;
+      color: #FFFFFF;
+    }
+  }
+
+  &__author {
+    border: 1px solid #ABB2BF;
+    border-top: none;
+    padding: 1.6rem;
+    margin-left: auto;
+
+    p {
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 3.1rem;
+      color: #FFFFFF;
+    }
+  }
+
+  &__decor {
+    width: 4.2rem;
+    height: 2.9rem;
+    background: #282C33;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:first-child {
+      left: 1.1rem;
+      top: -1.4rem;
+    }
+
+    &:last-child {
+      right: 1.1rem;
+      bottom: -1.4rem;
+    }
+
+    img {}
+  }
+}

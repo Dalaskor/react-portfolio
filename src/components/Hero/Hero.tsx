@@ -7,7 +7,7 @@ import dotsDecor from "../../assets/img/decor/dots.svg";
 
 export const Hero = () => {
     return (
-        <div className={style.hero}>
+        <section className={style.hero}>
             <div className={style.hero__container}>
                 <div className={style.hero__left}>
                     <h1 className={style.hero__title}>
@@ -29,6 +29,6 @@ export const Hero = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

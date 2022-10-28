@@ -1,5 +1,5 @@
 .primBtn {
-  border: 1px solid #C778DD;
+  border: 0.1rem solid #C778DD;
   padding: 0.8rem 1.6rem;
   font-weight: 500;
   font-size: 1.6rem;
@@ -9,6 +9,19 @@
 
   &:hover {
     background: rgba(199, 120, 221, 0.2);
+  }
+}
+
+.secondBtn {
+  border: 0.1rem solid #ABB2BF;
+  padding: 0.8rem 1.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #ABB2BF;
+
+  &:hover {
+    background: rgba(171, 178, 191, 0.2);
   }
 }
 

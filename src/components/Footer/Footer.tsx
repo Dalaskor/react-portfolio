@@ -26,16 +26,19 @@ export const Footer = () => {
                         </div>
                         <div className={style.footer__body}>
                             <ul className={style.footer__links}>
-                                <li><a href="#" className={style.footer__link}>
+                                <li><a href="https://github.com/Dalaskor" target={"_blank"}
+                                       className={style.footer__link}>
                                     <img src={gitHubIcon} alt="GitHub Icon"/>
                                 </a></li>
-                                <li><a href="#" className={style.footer__link}>
+                                <li><a href="https://discord.com/users/851380986302562324/" target={"_blank"}
+                                       className={style.footer__link}>
                                     <img src={discordIcon} alt="Discord Icon"/>
                                 </a></li>
-                                <li><a href="#" className={style.footer__link}>
+                                <li><a href="https://t.me/DALASKOR" target={"_blank"} className={style.footer__link}>
                                     <img src={telegramIcon} alt="Telegram Icon"/>
                                 </a></li>
-                                <li><a href="#" className={style.footer__link}>
+                                <li><a href="https://www.linkedin.com/in/danila-skripko-b33b70243/" target={"_blank"}
+                                       className={style.footer__link}>
                                     <img src={linkedInIcon} alt="LinkedIn Icon"/>
                                 </a></li>
                             </ul>

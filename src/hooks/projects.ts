@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {IProject} from "../model";
 
 export const useProjects = () => {
@@ -6,5 +6,12 @@ export const useProjects = () => {
 
     const fetchProducts = async () => {
         const response = await require('../data/projects.json');
+        setProjects(response.data);
     }
+
+    useEffect(() => {
+        fetchProducts();
+    }, [])
+
+    return {projects}
 }

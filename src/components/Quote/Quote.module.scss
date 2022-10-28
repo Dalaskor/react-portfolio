@@ -1,11 +1,12 @@
 .quote {
+  margin-top: 9.8rem;
+
   &__container {
     max-width: 72rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 9.8rem;
   }
 
   &__body {

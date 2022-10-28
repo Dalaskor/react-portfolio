@@ -1,0 +1,13 @@
+.primBtn {
+  border: 1px solid #C778DD;
+  padding: 0.8rem 1.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background: rgba(199, 120, 221, 0.2);
+  }
+}

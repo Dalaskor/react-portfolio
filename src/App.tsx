@@ -12,6 +12,7 @@ function App() {
                 <main className={"main"}>
                     <Routes>
                         <Route path={"/"} element={<MainPage/>}/>
+                        <Route path={"/test"} element={<MainPage/>}/>
                     </Routes>
                 </main>
                 <footer></footer>

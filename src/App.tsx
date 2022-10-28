@@ -3,6 +3,7 @@ import "./App.scss";
 import {Header} from "./components/header/Header";
 import {Route, Routes} from "react-router-dom";
 import {MainPage} from "./pages/MainPage/MainPage";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
                         <Route path={"/test"} element={<MainPage/>}/>
                     </Routes>
                 </main>
-                <footer></footer>
+                <Footer/>
             </div>
         </>
     )

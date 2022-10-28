@@ -1,0 +1,49 @@
+.footer {
+  border-top: 1px solid #ABB2BF;
+
+  &__container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3.2rem 0;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+  }
+
+  &__right {
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  &__body {
+    margin-top: 1.6rem;
+    color: #FFFFFF;
+  }
+
+  &__email {
+    margin-left: 3.2rem;
+    color: #ABB2BF;
+  }
+
+  &__links {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  &__link {
+  }
+
+  &__copyright {
+    margin: 0 auto;
+    margin-top: 4.8rem;
+  }
+}

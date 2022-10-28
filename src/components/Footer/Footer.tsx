@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Footer.module.scss';
-import {Logo} from "../logo/Logo";
+import {Logo} from "../Logo/Logo";
 import gitHubIcon from "../../assets/img/icons/github.svg";
 import discordIcon from "../../assets/img/icons/discord.svg";
 import telegramIcon from "../../assets/img/icons/telegram.svg";

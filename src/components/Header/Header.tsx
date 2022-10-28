@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Header.module.scss'
-import {Logo} from "../logo/Logo";
+import {Logo} from "../Logo/Logo";
 import {Navbar} from "../Navbar/Navbar";
 
 export const Header = () => {

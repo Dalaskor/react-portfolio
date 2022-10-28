@@ -1,17 +1,29 @@
 import {useEffect, useState} from "react";
 import {IProject} from "../model";
+import axios, {AxiosError} from "axios";
 
 export const useProjects = () => {
     const [projects, setProjects] = useState<IProject[]>([]);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
 
     const fetchProducts = async () => {
-        const response = await require('../data/projects.json');
-        setProjects(response.data);
+        try {
+            setError('');
+            setLoading(true);
+            const response = await axios.get<IProject[]>('projects.json')
+            setProjects(response.data);
+            setLoading(false);
+        } catch (e: unknown) {
+            const error = e as AxiosError;
+            setLoading(false);
+            setError(error.message);
+        }
     }
 
     useEffect(() => {
         fetchProducts();
     }, [])
 
-    return {projects}
+    return {projects, error, loading}
 }

@@ -99,3 +99,24 @@
     height: 3.2rem;
   }
 }
+
+.pageTitle {
+  &__title {
+    p {
+      font-weight: 600;
+      font-size: 3.2rem;
+      line-height: 4.2rem;
+      color: #FFFFFF;
+    }
+
+    span {
+      color: #C778DD;
+    }
+  }
+
+  &__description {
+    p {
+      color: #FFFFFF;
+    }
+  }
+}

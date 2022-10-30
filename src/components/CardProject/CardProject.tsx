@@ -11,9 +11,10 @@ interface CardProjectProps {
 export const CardProject = ({project}: CardProjectProps) => {
     return (
         <div className={style.card}>
-            <div className={style.card__image}>
-                <img src={project.image} alt="Project image"/>
-            </div>
+            {project.image &&
+                <div className={style.card__image}>
+                    <img src={project.image} alt="Project image"/>
+                </div>}
             <div className={style.card__tech}>
                 <p>{project.techs}</p>
             </div>
@@ -25,9 +26,10 @@ export const CardProject = ({project}: CardProjectProps) => {
                     {project.description}
                 </div>
                 <div className={style.card__buttons}>
-                    <PrimBtn btnText={"Preview"} onClick={() => {
-                        window.open(project.preview, '_blank');
-                    }}/>
+                    {project.preview &&
+                        <PrimBtn btnText={"Preview"} onClick={() => {
+                            window.open(project.preview, '_blank');
+                        }}/>}
                     <SecondBtn btnText={"GitHub"} onClick={() => {
                         window.open(project.github, '_blank');
                     }}/>

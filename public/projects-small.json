@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Small Project 1",
+    "description": "lorem lorem lorem",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio"
+  },
+  {
+    "id": 2,
+    "title": "Small Project 2",
+    "description": "lorem lorem lorem",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio"
+  },
+  {
+    "id": 3,
+    "title": "Small Project 3",
+    "description": "lorem lorem lorem",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio"
+  },
+  {
+    "id": 4,
+    "title": "Small Project 4",
+    "description": "lorem lorem lorem",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio"
+  }
+]

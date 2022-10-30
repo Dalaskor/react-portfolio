@@ -1,5 +1,18 @@
 .quote {
   margin-top: 9.8rem;
+  position: relative;
+
+  &__decorOut {
+    display: block;
+    content: '';
+    width: 9rem;
+    height: 9rem;
+    border: 0.1rem solid #ABB2BF;
+    border-right: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+  }
 
   &__container {
     max-width: 72rem;

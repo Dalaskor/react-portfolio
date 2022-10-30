@@ -1,10 +1,25 @@
-.projects     /* identical to box height */
-
-
-    /* white */
-
-{
+.projects {
   margin-top: 7.4rem;
+  position: relative;
+
+  &__decor1 {
+    display: block;
+    position: absolute;
+    top: 5.5rem;
+    left: -4.6rem;
+  }
+
+  &__decor2 {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 15.5rem;
+    height: 15.5rem;
+    border: 0.1rem solid #ABB2BF;
+    border-right: none;
+    bottom: 8.5rem;
+    right: -8.7rem;
+  }
 
   &__container {
     max-width: 100rem;

@@ -12,6 +12,9 @@ export const AboutSection = () => {
 
     return (
         <section className={style.about}>
+            <div className={style.about__decorOut1}></div>
+            <img src={decorDots} className={style.about__decorOut2}/>
+
             <div className={style.about__container}>
                 <div className={style.about__header}>
                     <SectionTitle titleText={"about-me"}/>

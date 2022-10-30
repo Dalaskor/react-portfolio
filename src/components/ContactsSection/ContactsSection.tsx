@@ -2,10 +2,13 @@ import React from 'react';
 import style from './ContactsSection.module.scss';
 import {ContactsBlock} from "../UI/ContactsBlock";
 import {SectionTitle} from "../UI/SectionTitle";
+import dotsDecor from "../../assets/img/decor/dots.svg";
 
 export const ContactsSection = () => {
     return (
         <section className={style.contacts}>
+            <img src={dotsDecor} className={style.contacts__decor}/>
+
             <div className={style.contacts__container}>
                 <div className={style.contacts__header}>
                     <SectionTitle titleText={"contacts"}/>

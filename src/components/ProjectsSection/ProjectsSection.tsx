@@ -6,12 +6,15 @@ import {useProjects} from "../../hooks/projects";
 import {CardProject} from "../CardProject/CardProject";
 import {Loader} from "../UI/Loader";
 import {ErrorMessage} from "../UI/ErrorMessage";
+import dotsDecor from '../../assets/img/decor/dots.svg';
 
 export const ProjectsSection = () => {
     const {projects, error, loading} = useProjects();
 
     return (
         <section className={style.projects}>
+            <img src={dotsDecor} className={style.projects__decor1}/>
+            <div className={style.projects__decor2}></div>
             <div className={style.projects__container}>
                 <div className={style.projects__header}>
                     <div className={style.projects__title}>

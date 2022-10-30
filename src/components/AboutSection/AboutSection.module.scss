@@ -1,5 +1,26 @@
 .about {
   margin-top: 11.2rem;
+  position: relative;
+
+  &__decorOut1 {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 15.5rem;
+    height: 15.5rem;
+    left: -7.7rem;
+    top: 12.5rem;
+    border: 1px solid #ABB2BF;
+    border-left: none;
+  }
+
+  &__decorOut2 {
+    display: block;
+    position: absolute;
+    content: '';
+    right: -2.3rem;
+    bottom: 10rem;
+  }
 
   &__container {
     max-width: 100rem;
@@ -35,7 +56,8 @@
     max-width: 51.5rem;
   }
 
-  &__right {}
+  &__right {
+  }
 
   &__image {
     max-width: 33.9rem;
@@ -46,6 +68,7 @@
       width: 100%;
       height: 100%;
       object-fit: contain;
+      border-bottom: 0.1rem solid #C778DD;
     }
   }
 

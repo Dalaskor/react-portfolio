@@ -5,6 +5,7 @@ import quoteIcon from '../../assets/img/decor/qute.svg';
 export const Quote = () => {
     return (
         <section className={style.quote}>
+            <div className={style.quote__decorOut}></div>
             <div className={style.quote__container}>
                 <div className={style.quote__body}>
                     <div className={style.quote__decor}>

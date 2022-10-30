@@ -4,6 +4,8 @@ import {SectionTitle} from "../UI/SectionTitle";
 import {Link} from "react-router-dom";
 import {useProjects} from "../../hooks/projects";
 import {CardProject} from "../CardProject/CardProject";
+import {Loader} from "../UI/Loader";
+import {ErrorMessage} from "../UI/ErrorMessage";
 
 export const ProjectsSection = () => {
     const {projects, error, loading} = useProjects();
@@ -19,9 +21,16 @@ export const ProjectsSection = () => {
                     <Link to={'/projects'} className={style.projects__all}>View all ~~&gt;</Link>
                 </div>
                 <div className={style.projects__list}>
-                    <CardProject project={projects[0]}/>
-                    <CardProject project={projects[1]}/>
-                    <CardProject project={projects[2]}/>
+                    {loading && <Loader/>}
+                    {error && <ErrorMessage error={error}/>}
+                    {projects.map((project, index) => {
+                        const indexes = [0, 1, 2];
+                        if (indexes.includes(index)) {
+                            return (
+                                <CardProject project={project} key={project.id} />
+                            )
+                        }
+                    })}
                 </div>
             </div>
         </section>

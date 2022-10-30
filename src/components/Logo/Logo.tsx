@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 
 export const Logo = () => {
     return (
-        <NavLink end to={'/'} className={style.logo}>
+        <NavLink end to={'/react-portfolio/'} className={style.logo}>
            <div className={style.logo__image}>
                <img src={logoImg} alt="logo"/>
            </div>

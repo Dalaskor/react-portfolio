@@ -21,7 +21,7 @@ export const ProjectsSection = () => {
                         <SectionTitle titleText={"projects"}/>
                         <div className={style.projects__line}></div>
                     </div>
-                    <Link to={'/projects'} className={style.projects__all}>View all ~~&gt;</Link>
+                    <Link to={'/react-portfolio/projects'} className={style.projects__all}>View all ~~&gt;</Link>
                 </div>
                 <div className={style.projects__list}>
                     {loading && <Loader/>}

@@ -7,22 +7,22 @@ export const Navbar = () => {
         <nav className={style.navbar}>
             <ul className={style.navbar__list}>
                 <li className={style.navbar__item}>
-                    <NavLink end to="/" className={({isActive}) => isActive ? style.active : undefined}>
+                    <NavLink end to="/react-portfolio/" className={({isActive}) => isActive ? style.active : undefined}>
                         <span>#</span>home
                     </NavLink>
                 </li>
                 <li className={style.navbar__item}>
-                    <NavLink to="/works" className={({isActive}) => isActive ? style.active : undefined}>
+                    <NavLink to="/react-portfolio/works" className={({isActive}) => isActive ? style.active : undefined}>
                         <span>#</span>works
                     </NavLink>
                 </li>
                 <li className={style.navbar__item}>
-                    <NavLink to="/about" className={({isActive}) => isActive ? style.active : undefined}>
+                    <NavLink to="/react-portfolio/about" className={({isActive}) => isActive ? style.active : undefined}>
                         <span>#</span>about-me
                     </NavLink>
                 </li>
                 <li className={style.navbar__item}>
-                    <NavLink to="/contacts" className={({isActive}) => isActive ? style.active : undefined}>
+                    <NavLink to="/react-portfolio/contacts" className={({isActive}) => isActive ? style.active : undefined}>
                         <span>#</span>contacts
                     </NavLink>
                 </li>

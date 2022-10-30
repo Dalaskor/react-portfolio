@@ -12,8 +12,10 @@ function App() {
                 <Header/>
                 <main className={"main"}>
                     <Routes>
-                        <Route path={"/"} element={<MainPage/>}/>
-                        <Route path={"/test"} element={<MainPage/>}/>
+                        <Route path={"/react-portfolio/"} element={<MainPage/>}/>
+                        <Route path={"/react-portfolio/works"} element={<MainPage/>}/>
+                        <Route path={"/react-portfolio/about"} element={<MainPage/>}/>
+                        <Route path={"/react-portfolio/contacts"} element={<MainPage/>}/>
                     </Routes>
                 </main>
                 <Footer/>

@@ -1,3 +1,35 @@
 .contacts {
-  &__container {}
+  margin-top: 11.2rem;
+
+  &__container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  &__line {
+    display: block;
+    content: '';
+    height: 0.1rem;
+    width: 12.7rem;
+    background: #C778DD;
+  }
+
+  &__body {
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  &__left {
+    max-width: 50.5rem;
+  }
+
+  &__right {}
 }

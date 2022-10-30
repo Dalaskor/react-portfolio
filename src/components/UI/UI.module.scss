@@ -44,3 +44,24 @@
   text-align: center;
   color: red;
 }
+
+.skillsBlock {
+  max-width: 19.6rem;
+  border: 0.1rem solid #ABB2BF;
+
+  &__header {
+    padding: 0.8rem;
+    border-bottom: 0.1rem solid #ABB2BF;
+
+    p {
+      font-weight: 600;
+      font-size: 1.6rem;
+      line-height: 2.1rem;
+      color: #FFFFFF;
+    }
+  }
+
+  &__body {
+    padding: 0.8rem;
+  }
+}

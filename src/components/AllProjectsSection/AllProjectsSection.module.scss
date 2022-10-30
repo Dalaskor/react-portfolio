@@ -1,5 +1,25 @@
 .projects {
   margin-top: 6.8rem;
+  position: relative;
+
+  &__decor1 {
+    position: absolute;
+    display: block;
+    top: 15.5rem;
+    left: 0;
+  }
+
+  &__decor2 {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 15.5rem;
+    height: 15.5rem;
+    border: 0.1rem solid #ABB2BF;
+    border-right: none;
+    right: -8.7rem;
+    top: 0;
+  }
 
   &__container {
     max-width: 100rem;

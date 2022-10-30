@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1bad9722.css",
-    "main.js": "/react-portfolio/static/js/main.b50dff78.js",
+    "main.css": "/react-portfolio/static/css/main.2cd94ff6.css",
+    "main.js": "/react-portfolio/static/js/main.84565e0b.js",
     "static/media/FiraCode-Medium.woff2": "/react-portfolio/static/media/FiraCode-Medium.de7d2d83e4ff871326ed.woff2",
     "static/media/FiraCode-Regular.woff2": "/react-portfolio/static/media/FiraCode-Regular.53aa3ab2885bd9f999f6.woff2",
     "static/media/FiraCode-SemiBold.woff2": "/react-portfolio/static/media/FiraCode-SemiBold.b9d9b414627842b54998.woff2",
@@ -26,11 +26,11 @@
     "static/media/email.svg": "/react-portfolio/static/media/email.3bd9bfdf21e1e81839055a78f4f586de.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.c1840f06295c0a2c8a5fcf0eec2b7eb5.svg",
-    "main.1bad9722.css.map": "/react-portfolio/static/css/main.1bad9722.css.map",
-    "main.b50dff78.js.map": "/react-portfolio/static/js/main.b50dff78.js.map"
+    "main.2cd94ff6.css.map": "/react-portfolio/static/css/main.2cd94ff6.css.map",
+    "main.84565e0b.js.map": "/react-portfolio/static/js/main.84565e0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bad9722.css",
-    "static/js/main.b50dff78.js"
+    "static/css/main.2cd94ff6.css",
+    "static/js/main.84565e0b.js"
   ]
 }

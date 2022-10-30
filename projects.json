@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Project 1",
+    "description": "lorem lorem lorem",
+    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio",
+    "preview": "https://github.com/Dalaskor/react-portfolio"
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "description": "lorem lorem lorem l lore lore ler lre lasdf lear lasdf lasdf jlasdkf kassjd flksdafj fkdsal lskdf jalsdk",
+    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio",
+    "preview": "https://github.com/Dalaskor/react-portfolio"
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "lorem lorem lorem",
+    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio",
+    "preview": "https://github.com/Dalaskor/react-portfolio"
+  },
+  {
+    "id": 4,
+    "title": "Project 4",
+    "description": "lorem lorem lorem",
+    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
+    "techs": "React JavaScript",
+    "github": "https://github.com/Dalaskor/react-portfolio",
+    "preview": "https://github.com/Dalaskor/react-portfolio"
+  }
+]

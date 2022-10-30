@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1bad9722.css",
+    "main.js": "/react-portfolio/static/js/main.52a945d6.js",
+    "static/media/FiraCode-Medium.woff2": "/react-portfolio/static/media/FiraCode-Medium.de7d2d83e4ff871326ed.woff2",
+    "static/media/FiraCode-Regular.woff2": "/react-portfolio/static/media/FiraCode-Regular.53aa3ab2885bd9f999f6.woff2",
+    "static/media/FiraCode-SemiBold.woff2": "/react-portfolio/static/media/FiraCode-SemiBold.b9d9b414627842b54998.woff2",
+    "static/media/FiraCode-Bold.woff2": "/react-portfolio/static/media/FiraCode-Bold.48dd513b3afba7d68a38.woff2",
+    "static/media/FiraCode-Bold.ttf": "/react-portfolio/static/media/FiraCode-Bold.160ed1ac4e45a09b43b5.ttf",
+    "static/media/FiraCode-SemiBold.ttf": "/react-portfolio/static/media/FiraCode-SemiBold.22b9da93a0f5246491ab.ttf",
+    "static/media/FiraCode-Regular.ttf": "/react-portfolio/static/media/FiraCode-Regular.fc45da4c3e5b90c232a2.ttf",
+    "static/media/FiraCode-Medium.ttf": "/react-portfolio/static/media/FiraCode-Medium.a97c2faa159e7881c89a.ttf",
+    "static/media/FiraCode-SemiBold.woff": "/react-portfolio/static/media/FiraCode-SemiBold.9a34e5a276358b828379.woff",
+    "static/media/FiraCode-Medium.woff": "/react-portfolio/static/media/FiraCode-Medium.ee71825b350265d52839.woff",
+    "static/media/FiraCode-Regular.woff": "/react-portfolio/static/media/FiraCode-Regular.69e6c3bd428bfd2ba13e.woff",
+    "static/media/FiraCode-Bold.woff": "/react-portfolio/static/media/FiraCode-Bold.8e26f65eccc53aa06df8.woff",
+    "static/media/profile.png": "/react-portfolio/static/media/profile.afb763d2f65f8a3a402f.png",
+    "static/media/decor-img.svg": "/react-portfolio/static/media/decor-img.74bf68304738c7f0216ce229466cc54c.svg",
+    "static/media/discord.svg": "/react-portfolio/static/media/discord.6fb3cf45bb09d040c30156a2ddaf355b.svg",
+    "static/media/squares.svg": "/react-portfolio/static/media/squares.aafacbe3c32c7347ff2026843f3c1567.svg",
+    "static/media/telegram.svg": "/react-portfolio/static/media/telegram.5f3d23ac04455f219e47bd4d33f09b8b.svg",
+    "static/media/github.svg": "/react-portfolio/static/media/github.bfd54b0ad12aa6dab46f5eb6d0393c0c.svg",
+    "static/media/dots.svg": "/react-portfolio/static/media/dots.6e33fd923b2a31d9872d96e676985fdd.svg",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.d81e5a385fe7336ec5abb96d77e56b49.svg",
+    "static/media/qute.svg": "/react-portfolio/static/media/qute.7a3b9b140644b0def8ab2e05713e7b88.svg",
+    "static/media/email.svg": "/react-portfolio/static/media/email.3bd9bfdf21e1e81839055a78f4f586de.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.c1840f06295c0a2c8a5fcf0eec2b7eb5.svg",
+    "main.1bad9722.css.map": "/react-portfolio/static/css/main.1bad9722.css.map",
+    "main.52a945d6.js.map": "/react-portfolio/static/js/main.52a945d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bad9722.css",
+    "static/js/main.52a945d6.js"
+  ]
+}

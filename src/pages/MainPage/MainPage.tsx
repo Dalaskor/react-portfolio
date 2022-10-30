@@ -3,6 +3,7 @@ import {Hero} from "../../components/Hero/Hero";
 import {Quote} from "../../components/Quote/Quote";
 import {ProjectsSection} from "../../components/ProjectsSection/ProjectsSection";
 import {SkillsSection} from "../../components/SkillsSection/SkillsSection";
+import {AboutSection} from "../../components/AboutSection/AboutSection";
 
 export const MainPage = () => {
     return (
@@ -11,6 +12,7 @@ export const MainPage = () => {
             <Quote/>
             <ProjectsSection/>
             <SkillsSection/>
+            <AboutSection/>
         </>
     )
 }

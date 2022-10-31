@@ -8,6 +8,13 @@
     align-items: center;
     justify-content: space-between;
     gap: 1.8rem;
+
+    @media (max-width: 48rem) {
+      max-width: 100%;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+      flex-direction: column;
+    }
   }
 
   &__left {

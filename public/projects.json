@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "description": "lorem lorem lorem",
-    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio",
-    "preview": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Pirosmani",
+    "description": "Food shop",
+    "image": "https://github.com/Dalaskor/react-portfolio/blob/master/src/assets/img/projects/pirosmani.png?raw=true",
+    "techs": "Vue JavaScript PUG SCSS",
+    "github": "https://github.com/Dalaskor/pirosmani",
+    "preview": "https://dalaskor.github.io/pirosmani/"
   },
   {
     "id": 2,
-    "title": "Project 2",
-    "description": "lorem lorem lorem l lore lore ler lre lasdf lear lasdf lasdf jlasdkf kassjd flksdafj fkdsal lskdf jalsdk",
-    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio",
-    "preview": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Nothing",
+    "description": "Nothing site clone",
+    "image": "https://github.com/Dalaskor/react-portfolio/blob/master/src/assets/img/projects/nothing.png?raw=true",
+    "techs": "Vue JavaScript HTML SCSS",
+    "github": "https://github.com/Dalaskor/nothing",
+    "preview": "https://dalaskor.github.io/nothing/"
   },
   {
     "id": 3,
-    "title": "Project 3",
-    "description": "lorem lorem lorem",
-    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio",
-    "preview": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Dashboard",
+    "description": "Dashboard with crypto charts",
+    "image": "https://github.com/Dalaskor/react-portfolio/blob/master/src/assets/img/projects/dashboard.png?raw=true",
+    "techs": "HTML SCSS JavaScript",
+    "github": "https://github.com/Dalaskor/dashboard",
+    "preview": "https://dalaskor.github.io/dashboard/"
   },
   {
     "id": 4,
-    "title": "Project 4",
-    "description": "lorem lorem lorem",
-    "image": "https://raw.githubusercontent.com/Dalaskor/react-portfolio/master/src/assets/img/projects/project-1.png",
-    "techs": "React JavaScript",
+    "title": "Portfolio",
+    "description": "You're using it rn",
+    "image": "https://github.com/Dalaskor/react-portfolio/blob/master/src/assets/img/projects/portfolio.png?raw=true",
+    "techs": "React JavaScript HTML SCSS",
     "github": "https://github.com/Dalaskor/react-portfolio",
-    "preview": "https://github.com/Dalaskor/react-portfolio"
+    "preview": "https://dalaskor.github.io/react-portfolio/"
   }
 ]

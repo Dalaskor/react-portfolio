@@ -1,0 +1,47 @@
+.media {
+  margin-top: 5rem;
+
+  &__container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+  &__list {
+    margin-top: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2.2rem;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      cursor: pointer;
+      color: #FFFFFF;
+
+      svg {
+        path {
+          fill: #ffffff;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      path {
+        transition: all 0.3s ease-in;
+      }
+    }
+  }
+}

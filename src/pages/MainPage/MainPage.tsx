@@ -14,7 +14,7 @@ export const MainPage = () => {
             <ProjectsSection/>
             <SkillsSection/>
             <AboutSection isShowTitle={true}/>
-            <ContactsSection/>
+            <ContactsSection isShowTitle={true}/>
         </>
     )
 }

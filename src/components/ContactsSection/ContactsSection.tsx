@@ -4,16 +4,21 @@ import {ContactsBlock} from "../UI/ContactsBlock";
 import {SectionTitle} from "../UI/SectionTitle";
 import dotsDecor from "../../assets/img/decor/dots.svg";
 
-export const ContactsSection = () => {
+interface ContactsSectionProps {
+    isShowTitle?: boolean,
+}
+
+export const ContactsSection = ({isShowTitle}: ContactsSectionProps) => {
     return (
         <section className={style.contacts}>
             <img src={dotsDecor} className={style.contacts__decor}/>
 
             <div className={style.contacts__container}>
+                {isShowTitle &&
                 <div className={style.contacts__header}>
                     <SectionTitle titleText={"contacts"}/>
                     <div className={style.contacts__line}></div>
-                </div>
+                </div>}
                 <div className={style.contacts__body}>
                     <div className={style.contacts__left}>
                         <p>

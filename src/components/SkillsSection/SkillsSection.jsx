@@ -21,12 +21,12 @@ export const SkillsSection = () => {
                             <SkillsBlock title={"Languages"} skills={"TypeScript Python JavaScript"}/>
                         </div>
                         <div className={style.skills__col}>
-                            <SkillsBlock title={"Database"} skills={"SQLite PostgreSQL"}/>
+                            <SkillsBlock title={"Databases"} skills={"SQLite PostgreSQL"}/>
                             <SkillsBlock title={"Others"} skills={"HTML CSS EJS SCSS PUG"}/>
                         </div>
                         <div className={style.skills__col}>
                             <SkillsBlock title={"Tools"} skills={"VSCode PyCharm Figma Git Linux Gulp"}/>
-                            <SkillsBlock title={"Frameworks"} skills={"React Vue Vuex VueRouter"}/>
+                            <SkillsBlock title={"Frameworks"} skills={"React Redux Vue Vuex VueRouter"}/>
                         </div>
                     </div>
                 </div>

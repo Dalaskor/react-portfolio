@@ -1,0 +1,15 @@
+.skills {
+  margin-top: 11.2rem;
+
+  &__container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+  &__list {
+    margin-top: 4.8rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+}

@@ -13,7 +13,7 @@ export const MainPage = () => {
             <Quote/>
             <ProjectsSection/>
             <SkillsSection/>
-            <AboutSection/>
+            <AboutSection isShowTitle={true}/>
             <ContactsSection/>
         </>
     )

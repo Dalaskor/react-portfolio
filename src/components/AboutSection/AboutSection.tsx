@@ -6,7 +6,11 @@ import {useNavigate} from "react-router-dom";
 import photoProfile from "../../assets/img/photos/profile.png";
 import decorDots from "../../assets/img/decor/dots.svg";
 
-export const AboutSection = () => {
+interface AboutSectionProps {
+    isShowTitle?: boolean,
+}
+
+export const AboutSection = ({isShowTitle}: AboutSectionProps) => {
     const navigate = useNavigate();
     const handleOnClick = useCallback(() => navigate('/about', {replace: true}), [navigate]);
 
@@ -16,10 +20,11 @@ export const AboutSection = () => {
             <img src={decorDots} className={style.about__decorOut2}/>
 
             <div className={style.about__container}>
+                {isShowTitle &&
                 <div className={style.about__header}>
                     <SectionTitle titleText={"about-me"}/>
                     <div className={style.about__line}></div>
-                </div>
+                </div>}
                 <div className={style.about__body}>
                     <div className={style.about__left}>
                         <p>

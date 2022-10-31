@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import {MainPage} from "./pages/MainPage/MainPage";
 import {Footer} from "./components/Footer/Footer";
 import {ProjectsPage} from "./pages/ProjectsPage/ProjectsPage";
+import {AboutPage} from "./pages/AboutPage/AboutPage";
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
                     <Routes>
                         <Route path={"/react-portfolio/"} element={<MainPage/>}/>
                         <Route path={"/react-portfolio/works"} element={<ProjectsPage/>}/>
-                        <Route path={"/react-portfolio/about"} element={<MainPage/>}/>
+                        <Route path={"/react-portfolio/about"} element={<AboutPage/>}/>
                         <Route path={"/react-portfolio/contacts"} element={<MainPage/>}/>
                     </Routes>
                 </main>

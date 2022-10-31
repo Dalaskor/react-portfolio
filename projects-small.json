@@ -1,30 +1,44 @@
 [
   {
     "id": 1,
-    "title": "Small Project 1",
-    "description": "lorem lorem lorem",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Mini Spotify App",
+    "description": "My mini spotify app pet project",
+    "techs": "Vue JavaScript",
+    "github": "https://github.com/Dalaskor/vue-spotify-app"
   },
   {
     "id": 2,
-    "title": "Small Project 2",
-    "description": "lorem lorem lorem",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Weather App",
+    "description": "My weather app pet project",
+    "techs": "Vue JavaScript",
+    "github": "https://github.com/Dalaskor/vue_weather_app"
   },
   {
     "id": 3,
-    "title": "Small Project 3",
-    "description": "lorem lorem lorem",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Calculator App",
+    "description": "My calculator app pet project",
+    "techs": "Vue JavaScript",
+    "github": "https://github.com/Dalaskor/vue-calculator"
   },
   {
     "id": 4,
-    "title": "Small Project 4",
-    "description": "lorem lorem lorem",
-    "techs": "React JavaScript",
-    "github": "https://github.com/Dalaskor/react-portfolio"
+    "title": "Telegram Bot",
+    "description": "My telegram bot",
+    "techs": "Python",
+    "github": "https://github.com/Dalaskor/telegram_bot"
+  },
+  {
+    "id": 5,
+    "title": "Parser",
+    "description": "Parser on python",
+    "techs": "Python",
+    "github": "https://github.com/Dalaskor/telegram_bot"
+  },
+  {
+    "id": 6,
+    "title": "VK Bot",
+    "description": "Bot for VK.com",
+    "techs": "Python",
+    "github": "https://github.com/Dalaskor/vk_bot"
   }
 ]

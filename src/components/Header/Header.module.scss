@@ -6,5 +6,37 @@
     align-items: center;
     justify-content: space-between;
     padding: 3.2rem 0 0.8rem 0;
+
+    @media (max-width: 48rem) {
+      max-width: 100%;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+    }
+  }
+
+  &__burger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width: 48rem) {
+      display: flex;
+    }
+
+    svg {
+      path {
+        transition: all 0.3s ease-in;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      svg {
+        path {
+          fill: #FFFFFF;
+        }
+      }
+    }
   }
 }

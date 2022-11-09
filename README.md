@@ -2,6 +2,8 @@
 
 [View](https://dalaskor.github.io/react-portfolio/)
 
+![Preview](https://github.com/Dalaskor/react-portfolio/blob/master/src/assets/Preview.png?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
